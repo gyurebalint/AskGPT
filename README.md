@@ -20,5 +20,11 @@ You have to set `<RuntimeIdentifier>linux-x64</RuntimeIdentifier>` or `<RuntimeI
 
 You can set your path to the executable. So after running the executable
 
-`askgpt "What command do you use if you want to list out all the docker images"` <br>
-You can do a Ctr+V and insert `docker images` from the clipboard
+cmd$ `askgpt "What command do you use if you want to list out all the docker images"` <br>
+
+answer$ `--> GPT 3 API returned text:`<br>
+`on your system?`
+
+`docker images`
+
+You can do a Ctr+V and it inserts `docker images` from the clipboard
