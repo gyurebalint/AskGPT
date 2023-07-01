@@ -4,9 +4,10 @@ This is a console project which allows us to ask ChatGPT about any commands we f
 
 The linux and windows executables are uploded to github, look for them in the `bin/Debug/net6.0/linux-x64/publish` and `bin/Debug/net6.0/win-x64/publish` folders and check it our yourself.
 
-Uses the text-davinci-003 model.
+Uses the text-davinci-001 model.
 
 ## Does not contain
+- secret management (api key)
 - error checking
 - caching (so don't spam it please cause it is going to cost me)
 - optimisations
